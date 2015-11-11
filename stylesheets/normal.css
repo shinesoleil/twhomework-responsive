@@ -31,6 +31,12 @@
     font-family: cursive;
     font-size: 18px;;
 }
+
+.line {
+    width: 70%;
+    margin: 50px auto 50px auto;
+}
+
 .grapes {
     display: inline-block;
     width: 45%;
@@ -44,4 +50,23 @@
 .grapesName {
     font-size: 22px;
     font-family: cursive;
+}
+
+.bottomText {
+    font-size: 18px;
+    font-family: cursive;
+}
+
+@media screen and (max-width: 960px) {
+    .header {
+        width: 100%;
+    }
+
+    .mainPage {
+        width: 100%;
+    }
+
+    .grapes {
+        width: 90%;
+    }
 }
